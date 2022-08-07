@@ -40,3 +40,6 @@ vignettes/*.pdf
 
 # Shinyapps files
 rsconnect/
+
+# Files associated to qmd applicationes
+especies-lista-roja_files/
