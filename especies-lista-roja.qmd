@@ -1,5 +1,5 @@
 ---
-title: "Especies en categorías de la Lista Roja de la UICN presentes en Costa Rica"
+title: "Especies en la Lista Roja de la UICN"
 format: 
   html:
     page-layout: custom
@@ -90,7 +90,7 @@ grupo = function(kingdom, phylum, class) {
 }
 
 # Lectura de datos
-lista <- read_delim(file = "especies-categorias-lista-roja-uicn.csv")
+lista <- read_delim(file = "especies-lista-roja.csv")
 
 # Filtros
 lista <-
