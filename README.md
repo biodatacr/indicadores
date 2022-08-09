@@ -6,16 +6,17 @@ La aplicación fue desarrollada con el lenguaje de programación [R](https://www
 
 ## Tableros de control
 
-- [Especies en categorías de la Lista Roja de la UICN](https://biodatacr.shinyapps.io/especies-lista-roja/)
+- [Especies en la Lista Roja](https://biodatacr.shinyapps.io/especies-lista-roja/)
 - [Especies en peligro y en poblaciones reducidas y amenazadas](https://biodatacr.shinyapps.io/especies-peligro-poblaciones-reducidas-amenazadas/)
+- [Especies introducidas e invasivas](https://biodatacr.shinyapps.io/especies-introducidas-invasivas/)
 
 ## Datos
 
-### Lista de especies en categorías de la Lista Roja de la UICN
+### Lista de especies en la Lista Roja
 
 Se origina en una [consulta](https://doi.org/10.15468/dl.mys4hm) al portal de datos de la [Infraestructura Mundial de Información en Biodiversidad (GBIF)](https://www.gbif.org/), cuyo resultado se cargó en el portal de BIODATACR como la lista de [Especies en categorías de la Lista Roja de la UICN](http://data.biodiversidad.go.cr/specieslists/speciesListItem/list/drt1658964047748).
 
-### Lista oficial de especies en peligro de extinción y con poblaciones reducidas y amenazadas
+### Lista de especies en peligro de extinción y con poblaciones reducidas y amenazadas
 
 Se origina en varias consultas al portal de GBIF:
 
@@ -32,3 +33,7 @@ Se origina en varias consultas al portal de GBIF:
 - [Plantas con poblaciones reducidas y amenazadas](https://doi.org/10.15468/dl.j5ftpn)
 - [Corales con poblaciones reducidas y amenazadas](https://doi.org/10.15468/dl.eu6tfy)
 - [Artrópodos con poblaciones reducidas y amenazadas]()
+
+### Lista de especies introducidas e invasivas
+
+Se origina en el [Global Register of Introduced and Invasive Species - Costa Rica](https://www.gbif.org/dataset/471fa55a-3d00-4bde-acb1-3b118248f50d).

@@ -41,5 +41,7 @@ vignettes/*.pdf
 # Shinyapps files
 rsconnect/
 
-# Files associated to qmd applicationes
+# Files associated to qmd applications
 especies-lista-roja_files/
+especies-peligro-poblaciones-reducidas-amenazadas_files/
+especies-introducidas-invasivas_files/
