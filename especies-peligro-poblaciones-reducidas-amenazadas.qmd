@@ -237,73 +237,133 @@ output$grafico_especies_x_categoria <- renderPlotly({
 
 # Cantidad de especies de plantas
 output$cantidad_especies_plantas <- renderInfoBox({
-    lista <- filtrarLista()  
+  lista <- filtrarLista()  
   
-    valueBox(
-      nrow(lista[lista$grupo == "Plantas",]),
-      "Especies de plantas",           
-      icon = icon("tree"),
-      color = "red"
+  valueBox(
+    value = tags$div(
+      nrow(lista[lista$grupo == "Plantas",]), 
+      style = "text-align: center;"
+    ),
+    subtitle = tags$div(
+      HTML(
+        paste0(
+          "<img src='www/icons8-oak-tree-50.png' height='50';'>", 
+          "<br>", 
+          "Especies de plantas"
+        )
+      ), 
+      style = "text-align: center;"
     )
-  })
+  )
+})
 
 # Cantidad de especies de aves
 output$cantidad_especies_aves <- renderInfoBox({
-    lista <- filtrarLista()  
+  lista <- filtrarLista()  
   
-    valueBox(
-      nrow(lista[lista$grupo == "Aves",]),
-      "Especies de aves",           
-      icon = icon("dove"),
-      color = "red",
+  valueBox(
+    value = tags$div(
+      nrow(lista[lista$grupo == "Aves",]), 
+      style = "text-align: center;"
+    ),
+    subtitle = tags$div(
+      HTML(
+        paste0(
+          "<img src='www/icons8-bird-60.png' height='50';'>", 
+          "<br>", 
+          "Especies de aves"
+        )
+      ), 
+      style = "text-align: center;"
     )
-  })
+  )
+})
 
 # Cantidad de especies de anfibios
 output$cantidad_especies_anfibios <- renderInfoBox({
-    lista <- filtrarLista()  
+  lista <- filtrarLista()  
   
-    valueBox(
-      nrow(lista[lista$grupo == "Anfibios",]),
-      "Especies de anfibios",           
-      icon = icon("frog"),
-      color = "red",
+  valueBox(
+    value = tags$div(
+      nrow(lista[lista$grupo == "Anfibios",]), 
+      style = "text-align: center;"
+    ),
+    subtitle = tags$div(
+      HTML(
+        paste0(
+          "<img src='www/icons8-frog-50.png' height='50';'>", 
+          "<br>", 
+          "Especies de anfibios"
+        )
+      ), 
+      style = "text-align: center;"
     )
-  })
+  )
+})
 
 # Cantidad de especies de reptiles
 output$cantidad_especies_reptiles <- renderInfoBox({
-    lista <- filtrarLista()  
+  lista <- filtrarLista()  
   
-    valueBox(
-      nrow(lista[lista$grupo == "Reptiles",]),
-      "Especies de reptiles",           
-      icon = icon("frog"),
-      color = "red",
+  valueBox(
+    value = tags$div(
+      nrow(lista[lista$grupo == "Reptiles",]), 
+      style = "text-align: center;"
+    ),
+    subtitle = tags$div(
+      HTML(
+        paste0(
+          "<img src='www/icons8-turtle-64.png' height='50';'>", 
+          "<br>", 
+          "Especies de reptiles"
+        )
+      ), 
+      style = "text-align: center;"
     )
-  })
+  )
+})
 
 # Cantidad de especies de mamíferos
 output$cantidad_especies_mamiferos <- renderInfoBox({
-    lista <- filtrarLista()  
+  lista <- filtrarLista()  
   
-    valueBox(
-      nrow(lista[lista$grupo == "Mamíferos",]),
-      "Especies de mamíferos",           
-      icon = icon("cat"),
-      color = "red",
+  valueBox(
+    value = tags$div(
+      nrow(lista[lista$grupo == "Mamíferos",]), 
+      style = "text-align: center;"
+    ),
+    subtitle = tags$div(
+      HTML(
+        paste0(
+          "<img src='www/icons8-jaguar-64.png' height='50';'>", 
+          "<br>", 
+          "Especies de mamíferos"
+        )
+      ), 
+      style = "text-align: center;"
     )
-  })
+  )
+})
 
 # Cantidad de especies de invertebrados
 output$cantidad_especies_invertebrados <- renderInfoBox({
-    lista <- filtrarLista()  
+  lista <- filtrarLista()  
   
-    valueBox(
-      nrow(lista[lista$grupo == "Invertebrados",]),
-      "Especies de invertebrados",           
-      icon = icon("bug"),
-      color = "red",
+  valueBox(
+    value = tags$div(
+      nrow(lista[lista$grupo == "Invertebrados",]), 
+      style = "text-align: center;"
+    ),
+    subtitle = tags$div(
+      HTML(
+        paste0(
+          "<img src='www/icons8-beetle-64.png' height='50';'>", 
+          "<br>", 
+          "Especies de invertebrados"
+        )
+      ), 
+      style = "text-align: center;"
     )
-  })
+  )
+})
 ```
